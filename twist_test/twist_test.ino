@@ -15,9 +15,9 @@ ros::NodeHandle nh;
 
 void callback(const geometry_msgs::Twist& msg)
 {
-//  Serial.println(msg.linear.x);
-//  Serial.println(msg.linear.y);
-//  Serial.println(msg.linear.z);
+  Serial.println(msg.linear.x);
+  Serial.println(msg.linear.y);
+  Serial.println(msg.linear.z);
   
 }
 
